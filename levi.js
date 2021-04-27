@@ -24,19 +24,11 @@ const data = new Map();
 const levi = new Discord.Client();
 
 levi.on("ready", () => {
-  levi.channels.get("SES KANAL ID").join();// MAİN DOSYAYA ATILCAK 
+  levi.channels.get("834969824014368768").join(834969824014368768);// MAİN DOSYAYA ATILCAK 
 })
 
-levi.login("TOKEN");
+levi.login("NzcwNzY2NjAzMDIwMjcxNjU2.YISdEQ.9wNN2hgdU3NE1gtsIX3NKkN2u38");
 
 
-
-const levi2 = new Discord.Client();
-
-levi2.on("ready", () => {
-  levi2.channels.get("SES KANAL ID").join();// MAİN DOSYAYA ATILCAK 
-})
-
-levi2.login("TOKEN");
 
 
